@@ -337,8 +337,9 @@ ul {
 
 .main-text h2 {
   margin: 0;
-  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  font-size: clamp(0.1rem, 4vw, 3rem);
   letter-spacing: 0.05em;
+  white-space: nowrap;
 }
 
 .main-text p {
@@ -436,6 +437,10 @@ h1 > span > span {
     font-size: 0.95rem;
     padding: 0 10px;
   }
+
+  .main-pic {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -443,6 +448,10 @@ h1 > span > span {
     font-size: 0.85rem;
     padding: 0 5px;
     line-height: 1.5;
+  }
+
+  .main-pic {
+    margin-top: 70px;
   }
 
   .moto-section {
@@ -809,6 +818,3 @@ h2.faq-heading {
     font-size: 16px;
   }
 }
-
-
-

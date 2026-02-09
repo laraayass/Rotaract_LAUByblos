@@ -337,7 +337,7 @@ ul {
 
 .main-text h2 {
   margin: 0;
-  font-size: clamp(1.8rem, 3vw, 3rem);
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
   letter-spacing: 0.05em;
 }
 
@@ -809,5 +809,6 @@ h2.faq-heading {
     font-size: 16px;
   }
 }
+
 
 

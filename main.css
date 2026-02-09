@@ -376,6 +376,7 @@ h1 > span {
   overflow: hidden;
   line-height: 1.5em;
   text-align: center;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
 }
 
 h1 > span > span {
@@ -809,3 +810,4 @@ h2.faq-heading {
     font-size: 16px;
   }
 }
+

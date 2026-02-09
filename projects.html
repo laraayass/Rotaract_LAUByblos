@@ -1,0 +1,747 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rotaract LAU Byblos</title>
+    <link rel="icon" href="pictures/wheel.png" type="image/png" />
+    <link rel="stylesheet" href="clubassembly.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1165876da6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <img src="pictures/raclaubyblos.png" alt="Logo" class="logo" />
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="clubassembly.html">Club Assembly</a></li>
+          <li><a href="committees.html">Committees</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="board-container">
+      <div class="pastvsfuture">
+        <input type="radio" name="slider" id="futureprojs" checked />
+        <input type="radio" name="slider" id="pastprojs" />
+        <nav>
+          <label for="futureprojs" class="futureprojs">Upcoming Projects</label>
+          <label for="pastprojs" class="pastprojs">Past Projects</label>
+          <div class="slider"></div>
+          <section></section>
+        </nav>
+      </div>
+
+      <div class="com-container">
+        <button data-name="All" class="active">All</button>
+        <button data-name="CS">Community Service</button>
+        <button data-name="PD">Professional Development</button>
+        <button data-name="Finance">Finance</button>
+        <button data-name="IU">International Understanding</button>
+        <button data-name="PI">Public Image</button>
+        <button data-name="CLS">Club Service</button>
+      </div>
+      <div class="future-message">
+        <h2>We are cooking, stay tuned!</h2>
+      </div>
+
+      <!-- Future Projects Container -->
+      <div class="future-container" style="display: block">
+        <div class="future-projects-grid">
+          <div class="future-project-item">
+            <img
+              src="pictures/SkillSwapDay.png"
+              alt="Future Project Flyer"
+              class="future-flyer"
+            />
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfRV0rAX0kO2riRTbla_U1lPnvX55Ht9Fo7ip7zbGAn4LUiPA/viewform"
+              target="_blank"
+              class="future-btn"
+              >Register</a
+            >
+          </div>
+
+          <div class="future-project-item">
+            <img
+              src="pictures/Flyer UGT (1).png"
+              alt="Future Project Flyer"
+              class="future-flyer"
+            />
+            <a
+              href="https://forms.gle/w4EYiAGy5ypEHdVb7"
+              target="_blank"
+              class="future-btn"
+              >Register</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="display: none">
+        <div class="vard-wrapper">
+          <ul class="card-list">
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img src="pictures/lasertag2.jpg" alt="CS" class="card-image" />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CLS">CLS</p>
+                  <p class="month-year">Jan 2026</p>
+                </div>
+                <h2 class="card-title">Laser tag</h2>
+                <p class="description">
+                  An afternoon of fun, teamwork, and laughter at laser tag. This
+                  event was a great chance for friends to bond and make lasting
+                  memories.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/sendcard.png"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PI">PI</p>
+                  <p class="month-year">Jan 2026</p>
+                </div>
+                <h2 class="card-title">Send a Card to a Friend</h2>
+                <p class="description">
+                  The post showcased different types of friends and encouraged
+                  celebrating National Send a Card to a Friend Day by tagging or
+                  sending it to them.<br />
+                  <i>
+                    Check it out:
+                    <span
+                      class="inner-link"
+                      data-url="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDY5Mzk4NDc3NTM0Mjc4?igsh=MTFwNW9rNmQzeXg1cg=="
+                      >link</span
+                    >
+                  </i>
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/rotaData.png"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PI">PI</p>
+                  <p class="month-year">Jan 2026</p>
+                </div>
+                <h2 class="card-title">RotaData challenge</h2>
+                <p class="description">
+                  A couple of stories shared to raise awareness about the
+                  dangers of oversharing online and encourage individuals to
+                  protect their personal data.<br />
+                  <i>
+                    Check it out:
+                    <span
+                      class="inner-link"
+                      data-url="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDY5Mzk4NDc3NTM0Mjc4?igsh=MTFwNW9rNmQzeXg1cg=="
+                      >link</span
+                    >
+                  </i>
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/peaceful26.jpg"
+                  alt="CS"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="Finance">FN</p>
+                  <p class="month-year">Jan 2026</p>
+                </div>
+                <h2 class="card-title">A Peaceful 2026</h2>
+                <p class="description">
+                  An evening of transformation, mindfulness, and laughter yoga
+                  in collaboration with other RAC clubs. This event was a calm
+                  and joyful chance to relax, reflect, and start the year with
+                  positive energy.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/escaprRoom.jpg"
+                  alt="CS"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CLS">CLS</p>
+                  <p class="month-year">Jan 2026</p>
+                </div>
+                <h2 class="card-title">Escape Room</h2>
+                <p class="description">
+                  Members went on an Escape Room adventure, where they solved
+                  puzzles, laughed together, and worked as a team.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img src="pictures/sip.jpg" alt="CS" class="card-image" />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PD">PD</p>
+                  <p class="month-year">Jan 2026</p>
+                </div>
+                <h2 class="card-title">Express & Release</h2>
+                <p class="description">
+                  A chill Sip & Paint session, where members dipped brushes,
+                  sipped drinks, and shared interests; a wonderful opportunity
+                  to relax, bond, and express themselves through art.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img src="pictures/navigate.jpg" alt="CS" class="card-image" />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PD">PD</p>
+                  <p class="month-year">Nov 2025</p>
+                </div>
+                <h2 class="card-title">How to Navigate Uni 2.0</h2>
+                <p class="description">
+                  A 2.5 hours session presented by 3 professors and 3 students
+                  to tackle university systems, academic life, and campus
+                  resources to ease their transition and ensure success.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/trivialogue.jpeg"
+                  alt="CS"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="IU">IU</p>
+                  <p class="month-year">Nov 2025</p>
+                </div>
+                <h2 class="card-title">Trivialogue</h2>
+                <p class="description">
+                  An initiative between RACSCPT & LAU Byblos in which members of
+                  both clubs participated in a trivia quiz prepared by the
+                  members, which encompassed a wide range of topics regarding
+                  culture.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/independence.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="Finance">FN</p>
+                  <p class="month-year">Nov 2025</p>
+                </div>
+                <h2 class="card-title">Independence Day</h2>
+                <p class="description">
+                  A celebratory event honoring national independence through
+                  cultural activities, reflection, and community bonding on
+                  campus.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/hikedown.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CLS">CLS</p>
+                  <p class="month-year">Nov 2025</p>
+                </div>
+                <h2 class="card-title">Hike down the memory lane</h2>
+                <p class="description">
+                  A nostalgic hike to the Cedars Reserve that invites students
+                  to revisit their childhood memories through traditional
+                  lebanese snacks, reflect on personal growth, and strengthen
+                  connections.
+                </p>
+              </a>
+            </li>
+
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/violation.png"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PI">PI</p>
+                  <p class="month-year">Nov 2025</p>
+                </div>
+                <h2 class="card-title">Say No to Violence.</h2>
+                <p class="description">
+                  A powerful reel that raises awareness about the Elimination of
+                  Violence Against Women, with a message of solidarity and a
+                  call for a safer, violence-free world.
+                  <i>
+                    Check it out:
+                    <span
+                      class="inner-link"
+                      data-url="https://www.instagram.com/reel/DRxKHIYjQHR/?igsh=YnM1MXU0MGZsMWZs"
+                      >link</span
+                    >
+                  </i>
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/diabetes.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PI">PI</p>
+                  <p class="month-year">Nov 2025</p>
+                </div>
+                <h2 class="card-title">Fight Diabetes with Knowledge</h2>
+                <p class="description">
+                  An informative reel in collaboration with the LAU Premedical
+                  Society Club that highlights the signs of diabetes and share
+                  tips to protect your health.<br />
+                  <i>
+                    Check it out:
+                    <span
+                      class="inner-link"
+                      data-url="https://www.instagram.com/reel/DR2cOb8DYFF/?igsh=MWJqcXk1NzM3eDd0eg=="
+                      >link</span
+                    >
+                  </i>
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/endpolio.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PI">PI</p>
+                  <p class="month-year">Oct 2025</p>
+                </div>
+                <h2 class="card-title">Let's End Polio!</h2>
+                <p class="description">
+                  A powerful reel highlighting the message to end polio, raising
+                  a finger in solidarity to spread awareness and inspire action
+                  toward a 100% polio-free future.<br />
+                  <i>
+                    Check it out:
+                    <span
+                      class="inner-link"
+                      data-url="https://www.instagram.com/reel/DQMvWMlDdu8/?igsh=YWdrMGR5aWQyajlp"
+                      >link</span
+                    >
+                  </i>
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/breastcancer.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                  data-gallery='["pictures/breastcancer.jpg","pictures/breastcancer1.jpg","pictures/breastcancer2.jpg","pictures/breastcancer3.jpg"]'
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CS">CS</p>
+                  <p class="month-year">Oct 2025</p>
+                </div>
+                <h2 class="card-title">Breast Cancer Awareness</h2>
+                <p class="description">
+                  An awareness initiative focused on education, early detection,
+                  and solidarity in support of breast cancer prevention and
+                  survivors. A pink ribbon scavenger hunt was prepared with
+                  prizes.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/culturaltrivia.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="IU">IU</p>
+                  <p class="month-year">Oct 2025</p>
+                </div>
+                <h2 class="card-title">Cultural Trivia Night</h2>
+                <p class="description">
+                  An interactive trivia-based discussion night that encourages
+                  teamwork and learning, in collaboration with AGBU AYA
+                  University, Armenian Club and RAC Larnaca Kition.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/lasertag.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CLS">CLS</p>
+                  <p class="month-year">Oct 2025</p>
+                </div>
+                <h2 class="card-title">Laser Tag on Campus 2.0</h2>
+                <p class="description">
+                  A laser tag event on LAU covering Zakhem, FREM and the
+                  fountain area.
+                </p>
+              </a>
+            </li>
+
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/heyarides.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CS">CS</p>
+                  <p class="month-year">Sept 2025</p>
+                </div>
+                <h2 class="card-title">Heya Ride Awarness session</h2>
+                <p class="description">
+                  A 1-hour awareness session tackling the importance of Heya
+                  Ride in collaboration with RAC Zahle Bekaa.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/gift.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PD">PD</p>
+                  <p class="month-year">Sept 2025</p>
+                </div>
+                <h2 class="card-title">Gift of the Sea</h2>
+                <p class="description">
+                  An environmental fundraiser focused on sea glass jewelry
+                  making followed by music and a pizza gathering in
+                  collaboration with RAC Lebanon Eco and Byblos.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/cooking.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="IU">IU</p>
+                  <p class="month-year">Sept 2025</p>
+                </div>
+                <h2 class="card-title">Armenian Cooking Workshop</h2>
+                <p class="description">
+                  A hands-on workshop introducing participants to traditional
+                  Armenian cuisine and cooking Manteh, in collaboration with
+                  AGBU-AYA University.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/armeniandance.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="IU">IU</p>
+                  <p class="month-year">Sept 2025</p>
+                </div>
+                <h2 class="card-title">Armenian Dance Workshop</h2>
+                <p class="description">
+                  An interactive cultural session teaching traditional Armenian
+                  dances while celebrating history and expression in AGBU-AYA
+                  University.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/highwayticket.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CLS">CLS</p>
+                  <p class="month-year">Sept 2025</p>
+                </div>
+                <h2 class="card-title">Highway ticket 3.0</h2>
+                <p class="description">
+                  A full day trip from the museum of fossil in Byblos, to the
+                  Animal City in Zouk, to boats & karaoke in Beirut in
+                  collaboration with RAC Kesrouan, USJ and Byblos.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/camping.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CLS">CLS</p>
+                  <p class="month-year">Sept 2025</p>
+                </div>
+                <h2 class="card-title">Mnel جامعة lal sabet camp</h2>
+                <p class="description">
+                  An overnight camp experience in nsit wen focused on team
+                  bonding and personal growth through activities and a dinner in
+                  collaboration with RAC USJ and AUB.
+                </p>
+              </a>
+            </li>
+
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/yoga.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PD">PD</p>
+                  <p class="month-year">Aug 2025</p>
+                </div>
+                <h2 class="card-title">Stretch, Splash & Sprint</h2>
+                <p class="description">
+                  A yoga activity and fun pizza gathering to promote physical
+                  health and energy in collaboration with RAC Kesrouan.
+                </p>
+              </a>
+            </li>
+
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/rotarun.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="Finance">FN</p>
+                  <p class="month-year">Aug 2025</p>
+                </div>
+                <h2 class="card-title">RotaRun 2025</h2>
+                <p class="description">
+                  A 5km and 9km race fundraiser from Byblos to Amshit and back
+                  featuring 102 participants in collaboration with the
+                  municipalities of Byblos and Amshit and Rotary Byblos to
+                  support the firefighters.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/skillswap.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PD">PD</p>
+                  <p class="month-year">Jul 2025</p>
+                </div>
+                <h2 class="card-title">Skill Swap Day</h2>
+                <p class="description">
+                  An activity where every participant got to share a skill,
+                  hobby or even a trick! It was a great opportunity to connect,
+                  teach and learn from each other in a friendly setting.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/letters.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="PD">PD</p>
+                  <p class="month-year">Jul 2025</p>
+                </div>
+                <h2 class="card-title">Letters to your future self</h2>
+                <p class="description">
+                  A reflective activity where participants wrote letters to
+                  themselves to capture goals, hopes, and personal aspirations.
+                  The letters will be distributed back in June 2026.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/jumeirah.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="IU">IU</p>
+                  <p class="month-year">Jul 2025</p>
+                </div>
+                <h2 class="card-title">Letter Exchange with RAC Jumeirah</h2>
+                <p class="description">
+                  A letter exchange between IU Director Melanie Doueihy and RAC
+                  Jumeirah.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/santos.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="IU">IU</p>
+                  <p class="month-year">Jul 2025</p>
+                </div>
+                <h2 class="card-title">Letter Exchange with RAC Santos</h2>
+                <p class="description">
+                  A letter exchange between President Mabelle Attieh and RAC
+                  Santos.
+                </p>
+              </a>
+            </li>
+            <li class="card-item">
+              <a href="#" class="card-link">
+                <img
+                  src="pictures/bowling.jpg"
+                  alt="Card Image"
+                  class="card-image"
+                />
+                <div class="badge-wrapper">
+                  <p class="badge" data-category="CLS">CLS</p>
+                  <p class="month-year">Jul 2025</p>
+                </div>
+                <h2 class="card-title">Bowling Night</h2>
+                <p class="description">
+                  Club members enjoyed a lively bowling outing, laughing
+                  together as they bond over friendly competition and shared
+                  moments on the lanes.
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>rotaract.lau@gmail.com<br />Lebanon, LAU Byblos</p>
+          </div>
+          <div class="footer-content">
+            <h3>Magazines</h3>
+            <ul class="list">
+              <li>
+                <a
+                  href="https://www.canva.com/design/DAGF_ebnyto/95Z_tOpevE76KRx6qVscBQ/view?utm_content=DAGF_ebnyto&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+                  >RY23-24 magazine</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li>
+                <a href="https://www.instagram.com/rotaractlaubyblos/?hl=en">
+                  <span class="social-text">@rotaractlaubyblos</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <p>&copy; 2026 Rotaract club of LAU Byblos . All rights reserved</p>
+        </div>
+      </footer>
+    </section>
+
+    <script>
+      // Mobile menu toggle
+      const mobileMenu = document.getElementById("mobile-menu");
+      const navLinks = document.querySelector(".nav-links");
+
+      mobileMenu.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+      });
+
+      // Close menu when clicking a link
+      document.querySelectorAll(".nav-links a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          navLinks.classList.remove("active");
+        });
+      });
+
+      document.querySelectorAll(".inner-link").forEach(function (link) {
+        link.addEventListener("click", function (e) {
+          e.stopPropagation(); // prevent outer card link
+          window.location.href = this.dataset.url;
+        });
+      });
+    </script>
+  </body>
+</html>

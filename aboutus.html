@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rotaract LAU Byblos - Club Assembly</title>
+    <link rel="icon" href="pictures/wheel.png" type="image/png" />
+    <link rel="stylesheet" href="clubassembly.css" />
+    <link rel="stylesheet" href="aboutus.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1165876da6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <img src="pictures/raclaubyblos.png" alt="Logo" class="logo" />
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="aboutus.html" class="active">About Us</a></li>
+          <li><a href="clubassembly.html">Club Assembly</a></li>
+          <li><a href="committees.html">Committees</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="board-container">
+      <div class="rotary-plan-container">
+        <img
+          src="pictures/district.jpg"
+          alt="Rotary Plan"
+          class="rotary-plan-image"
+        />
+
+        <h1>Our areas of focus</h1>
+
+        <div class="rotary-circles" aria-label="Rotary Plan Colors">
+          <span class="circle red" aria-hidden="true">Impact</span>
+          <span class="circle blue" aria-hidden="true">Reach</span>
+          <span class="circle orange" aria-hidden="true">Engage</span>
+          <span class="circle purple" aria-hidden="true">Adapt</span>
+        </div>
+
+        <div class="committee-logos" aria-label="Committee logos">
+          <figure class="committee-item">
+            <img
+              src="pictures/cs2logo.png"
+              alt="Community Service committee logo"
+              class="committee-logo"
+            />
+            <div class="committee-overlay">
+              Driving positive change through service initiatives
+            </div>
+            <figcaption class="committee-label">Community Service</figcaption>
+          </figure>
+          <figure class="committee-item">
+            <img
+              src="pictures/pdlogo.png"
+              alt="Professional Development committee logo"
+              class="committee-logo"
+            />
+            <div class="committee-overlay">
+              Building skills and fostering growth
+            </div>
+            <figcaption class="committee-label">
+              Professional Development
+            </figcaption>
+          </figure>
+          <figure class="committee-item">
+            <img
+              src="pictures/iulogo.png"
+              alt="International Understanding committee logo"
+              class="committee-logo"
+            />
+            <div class="committee-overlay">
+              Connecting across cultures and borders
+            </div>
+            <figcaption class="committee-label">
+              International Understanding
+            </figcaption>
+          </figure>
+          <figure class="committee-item">
+            <img
+              src="pictures/financelogo.png"
+              alt="Finance committee logo"
+              class="committee-logo"
+            />
+            <div class="committee-overlay">Managing resources responsibly</div>
+            <figcaption class="committee-label">Finance</figcaption>
+          </figure>
+          <figure class="committee-item">
+            <img
+              src="pictures/pilogo.png"
+              alt="Public Image committee logo"
+              class="committee-logo"
+            />
+            <div class="committee-overlay">
+              Sharing our story with the world
+            </div>
+            <figcaption class="committee-label">Public Image</figcaption>
+          </figure>
+          <figure class="committee-item">
+            <img
+              src="pictures/clslogo.png"
+              alt="Club Service committee logo"
+              class="committee-logo"
+            />
+            <div class="committee-overlay">
+              Strengthening our community bonds
+            </div>
+            <figcaption class="committee-label">Club Service</figcaption>
+          </figure>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>rotaract.lau@gmail.com<br />Lebanon, LAU Byblos</p>
+          </div>
+          <div class="footer-content">
+            <h3>Magazines</h3>
+            <ul class="list">
+              <li>
+                <a
+                  href="https://www.canva.com/design/DAGF_ebnyto/95Z_tOpevE76KRx6qVscBQ/view?utm_content=DAGF_ebnyto&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+                  >RY23-24 magazine</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li>
+                <a href="https://www.instagram.com/rotaractlaubyblos/?hl=en">
+                  <span class="social-text">@rotaractlaubyblos</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <p>&copy; 2026 Rotaract club of LAU Byblos . All rights reserved</p>
+        </div>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+    <script>
+      // Mobile menu toggle
+      const mobileMenu = document.getElementById("mobile-menu");
+      const navLinks = document.querySelector(".nav-links");
+
+      mobileMenu.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+      });
+
+      // Close menu when clicking a link
+      document.querySelectorAll(".nav-links a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          navLinks.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>

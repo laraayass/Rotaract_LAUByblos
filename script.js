@@ -271,7 +271,7 @@ const FAQData = [
     ],
   },
   {
-    question: "What does leading a project mean",
+    question: "What does leading a project mean?",
     answer: [
       "Leading a project is not doing the whole project alone.",
       "You get to choose which committee the project is part of and how to execute it.",
@@ -614,3 +614,4 @@ const initGallery = () => {
 };
 
 initGallery();
+

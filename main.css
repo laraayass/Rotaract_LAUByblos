@@ -248,7 +248,7 @@ ul {
 }
 
 .rotary-circles .circle:nth-child(3)::after {
-  content: "In Lebanon, there are 27 Rotaract clubs distributed across the country.";
+  content: "In Lebanon, there are 25 Rotaract clubs distributed across the country.";
   position: absolute;
   inset: 0;
   display: flex;
@@ -826,3 +826,4 @@ h2.faq-heading {
     font-size: 16px;
   }
 }
+

@@ -296,7 +296,7 @@ const FAQData = [
   {
     question: "What does rotaract mean?",
     answer: [
-      "A Rotaract club is Rotary sponsored and have people between the ages 18-30 that want to make an impact in their community while having fun and networking.",
+      "A Rotaract club is Rotary sponsored and have people at the age of 18 and above that want to make an impact in their community while having fun and networking.",
     ],
   },
 ];
@@ -614,4 +614,5 @@ const initGallery = () => {
 };
 
 initGallery();
+
 
